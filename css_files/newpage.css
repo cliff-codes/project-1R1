@@ -1,0 +1,106 @@
+/*Styling the header*/
+.header {
+    display: flex;
+}
+
+.sitelogo {
+    max-width: 240px; /* Adjust max-width as needed */
+    height: 143px;
+}
+
+.sitetitle {
+    font-size: 48px;
+    font-family: "Jolly Lodger", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 60px;
+    margin-bottom: 0%;
+    margin-right: 80%;
+    float: right;
+
+}
+
+.backdrop{
+    background-color: aliceblue;
+}
+
+.newpagetitle{
+    font-size: 56px;
+    font-style: normal;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    margin-top: 0%;
+    text-decoration: underline;
+}
+
+/*Styling the main*/
+main {
+    padding: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/*Adding a comment section for post page*/
+#comments {
+    margin-top: 50px;
+}
+
+.comment {
+    margin-bottom: 20px;
+}
+h3{
+    text-align: center;
+}
+/*Adding edit button for the post page*/
+.edit-button {
+    margin-left: 90%;
+    text-decoration: none;
+}
+
+.edit-button img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.edit-button img:hover {
+    transform: scale(1.1);
+}
+
+h4{
+    color: black;
+    margin-top: 0px;
+    margin-left: 90%;
+}

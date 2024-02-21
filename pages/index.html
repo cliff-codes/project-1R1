@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index-page</title>
+    <link rel="stylesheet" href="/css_files/index.css">
+    <link rel="stylesheet" href="/responsive/index_responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Irish+Grover&family=Itim&family=Jolly+Lodger&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Single+Day&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Irish+Grover&family=Itim&family=Jolly+Lodger&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img src="/images/sitelogo.png" alt="site logo" class="sitelogo">
+            <h6 class="sitetitle">BRAINY-PEDIA</h6>
+        <!--Adding the search bar -->
+            <div class="search-container">
+        <input type="text" class="search-box" placeholder="Search...">
+        <button type="submit" class="search-button">Search</button>
+            </div>
+        <!-- Add a new page link -->
+        <a href="/pages/newpage.html" class="new-page-link">
+            <img src="/icons/icons8-single-page-mode-48.png" alt="Add a new page" class="add-new-page-icon">
+            <p class="newpage">AddNew-Page</p>
+        </a>
+        <!-- Add a random page link -->
+        <a href="/posts/brainydictionary.html" class="random-page-link">
+            <img src="/icons/icons8-dice-50.png" alt="Add a new page" class="add-new-page-icon">
+            <p class="randompage">Random-Page</p>
+        </a>
+    </div>
+        </div><br>
+    </header>
+    <div class="sticky-note" id="categories">
+    Categories
+</div>
+    <div class="categories">
+        <div class="category-item">
+        <img src="/images/icons8-media-64.png" alt="BrainyMedia">
+        <a href="#"><span>BrainyMedia</span></a>
+        <p>Free Media Source</p>
+    </div>
+    <div class="category-item">
+        <img src="/images/icons8-quotes-94.png" alt="BrainyQuotes">
+        <a href="#"> <span>BrainyQuotes</span></a>
+        <p>Free Quote</p>
+    </div>
+    <div class="category-item">
+        <img src="/images/icons8-cs-64.png" alt="BrainyFunctions">
+        <a href="#"><span>BrainyFunctions</span></a>
+        <p>Free Function Library</p>
+    </div>
+    </div>
+
+    <div class="categories-line">
+        <div class="category-item">
+            <img src="/images/icons8-news-64.png" alt="BrainyMedia">
+            <a href="#"><span>BrainyNews</span></a>
+            <p>Free News Source</p>
+        </div>
+        <div class="category-item">
+            <img src="/images/icons8-books-64.png" alt="BrainyQuotes">
+            <a href="#"> <span>BrainyBooks</span></a>
+            <p>Free Books And Slides</p>
+        </div>
+        <div class="category-item">
+            <img src="/images/icons8-dictionary-64.png" alt="BrainyFunctions">
+            <a href="#"><span>BrainyDictionary</span></a>
+            <p>Free Dictionary</p>
+        </div>
+    </div>
+     <div class="sticky-note" id="categories">
+    Posts
+    </div>
+    <hr>
+
+    <!--Adding Cards as posts-->
+    <div class="post-container">
+    <div class="post-card">
+        <div class="post-image" style="background-image: url('/images/bonbon-hand-holding-newspaper-and-glasses-1.png');"></div>
+        <div class="post-details">
+            <h2 class="post-title">Word Of The Day!</h2>
+            <p class="post-description">Discombobulated</p>
+            <a href="/posts/brainydictionary.html" class="read-more">Read More</a>
+        </div>
+    </div>
+    <!-- Repeat for other posts -->
+    <div class="post-card">
+        <div class="post-image" style="background-image: url('/images/business-3d-stack-of-different-books.png');"></div>
+        <div class="post-details">
+            <h2 class="post-title">CSM 357</h2>
+            <p class="post-description">Lecture Three Slides</p>
+            <a href="/posts/brainybooks.html" class="read-more">Read More</a>
+        </div>
+    </div>
+    <!-- Repeat for other posts -->
+    <div class="post-card">
+        <div class="post-image" style="background-image: url('/images/icons8-news-64.png');"></div>
+        <div class="post-details">
+            <h2 class="post-title">UTAG Cancels Strike</h2>
+            <p class="post-description">UTAG Takes A Decision To Cancel Strike</p>
+            <a href="/posts/brainymedia.html" class="read-more">Read More</a>
+        </div>
+    </div>
+</div>
+<!--Adding Cards as posts-->
+    <div class="post-container">
+    <div class="post-card">
+        <div class="post-image" style="background-image: url('/images/lettering-lettering-love-is-in-the-air-with-stars-and-clouds-text-1.png');"></div>
+        <div class="post-details">
+            <h2 class="post-title">Quote Of  The Day!</h2>
+            <p class="post-description">Love No Matter What</p>
+            <a href="/posts/brainyquote.html" class="read-more">Read More</a>
+        </div>
+    </div>
+    <!-- Repeat for other posts -->
+    <div class="post-card">
+        <div class="post-image" style="background-image: url('/images/shine-chalk-board-with-textbooks-and-ruler-for-math-lesson-1.png');"></div>
+        <div class="post-details">
+            <h2 class="post-title">Exploring Functions </h2>
+            <p class="post-description">Functions Can be ...</p>
+            <a href="/posts/brainyfuction.html" class="read-more">Read More</a>
+        </div>
+    </div>
+    <!-- Repeat for other posts -->
+    <div class="post-card">
+        <div class="post-image" style="background-image: url('/images/smart-social-media-marketing-and-metrics.png');"></div>
+        <div class="post-details">
+            <h2 class="post-title">Connecting To The Web</h2>
+            <p class="post-description">Web reveals a lot by ...</p>
+            <a href="/posts/brainynews.html" class="read-more">Read More</a>
+        </div>
+    </div>
+</div>
+
+<hr style="opacity: 0.5;">
+<footer>
+    <h6 style="text-align: center;">All Rights Reserved Project 1R1</h6>
+</footer>
+
+</body>
+</html>

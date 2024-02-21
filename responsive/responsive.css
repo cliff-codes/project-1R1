@@ -1,0 +1,166 @@
+/* Media Queries for responsiveness */
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+
+    /*THE HEADER*/
+    .header {
+    display: block;
+    margin-left: 10%;
+}
+
+.sitelogo {
+    max-width: 520px; /* Adjust max-width as needed */
+    height: 425px;
+    margin-bottom: 10px;
+}
+
+.sitetitle {
+    font-size: 48px;
+    font-family: "Jolly Lodger", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0%;
+    text-align: center;
+}
+
+/*HANDLING THE SUBHEADER*/
+.subheader{
+    font-size: 28px;
+    font-family: "IM Fell English SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 30px;
+}
+/*The Search Container*/
+.search-container {
+    margin-left: 10%;
+    margin-top: 30px;
+
+}
+
+.search-box {
+    width: 250px; /* Adjust width as needed */
+    padding: 20px;
+    border: 1px solid #00FFE0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-button {
+    padding: 20px 20px;
+    background-color: #00c3ff; /* Change color as needed */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+/*The Button*/
+.button-container {
+    margin-left: 30%;
+    margin-top: 30px; /* Adjust top margin to position the button */
+}
+
+.custom-button {
+    padding: 10px 50px;
+    background-color: #00BCD4; /* Change color as needed */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.footer-item a:hover span{
+    color: rgb(9, 2, 97);
+    font-size: 20px;
+}
+
+
+}
+
+
+/*Tablet*/
+@media screen and (min-width: 601px) and (max-width: 1300px){
+    /*THE HEADER*/
+    .header {
+    display: flex;
+    margin-left: 20%;
+}
+
+.sitelogo {
+    max-width: 520px; /* Adjust max-width as needed */
+    height: 425px;
+    margin-bottom: 10px;
+}
+
+.sitetitle {
+    font-size: 48px;
+    font-family: "Jolly Lodger", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 30%;
+    text-align: center;
+}
+
+/*HANDLING THE SUBHEADER*/
+.subheader{
+    font-size: 28px;
+    font-family: "IM Fell English SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 30px;
+}
+/*The Search Container*/
+.search-container {
+    margin-left: 25%;
+    margin-top: 30px;
+
+}
+
+.search-box {
+    width: 500px; /* Adjust width as needed */
+    padding: 20px;
+    border: 1px solid #00FFE0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-button {
+    padding: 20px 20px;
+    background-color: #00c3ff; /* Change color as needed */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+/*The Button*/
+.button-container {
+    margin-left: 40%;
+    margin-top: 30px; /* Adjust top margin to position the button */
+}
+
+.custom-button {
+    padding: 20px 100px;
+    background-color: #00BCD4; /* Change color as needed */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.footer-item a:hover span{
+    color: rgb(9, 2, 97);
+    font-size: 20px;
+}
+}
+
+
+

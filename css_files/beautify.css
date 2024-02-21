@@ -1,0 +1,135 @@
+
+/* Styling The Header components*/
+.header {
+    display: flex;
+    margin-left: 20%;
+}
+
+.sitelogo {
+    max-width: 520px; /* Adjust max-width as needed */
+    height: 425px;
+}
+
+.sitetitle {
+    font-size: 128px;
+    font-family: "Jolly Lodger", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 0%;
+    margin-top: 15%;
+}
+
+/*The Subheader*/
+
+.subheader{
+    font-size: 48px;
+    font-family: "IM Fell English SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+/*The Search Container*/
+.search-container {
+    margin-left: 30%;
+    margin-top: 0;
+
+}
+
+.search-box {
+    width: 500px; /* Adjust width as needed */
+    padding: 20px;
+    border: 1px solid #00FFE0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-button {
+    padding: 20px 20px;
+    background-color: #00c3ff; /* Change color as needed */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #02a1c9; /* Change color as needed */
+}
+
+/*The Button*/
+.button-container {
+    margin-left: 40%;
+    margin-top: 50px; /* Adjust top margin to position the button */
+}
+
+.custom-button {
+    padding: 20px 100px;
+    background-color: #00BCD4; /* Change color as needed */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+a{
+    text-decoration: none;
+}
+.custom-button:hover {
+    background-color: #019baf; /* Change color as needed */
+}
+
+.clickme{
+    vertical-align: middle;
+    width: 24px;
+    height:auto ;
+}
+
+hr{
+    opacity: 0.5;
+}
+
+/*Footer elements*/
+.footer {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    align-items: center; /* Align items vertically */
+    padding: 20px; /* Example padding */
+}
+
+.footer-line {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    margin-bottom: 40px; /* Add space between lines */
+}
+
+.footer-item {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.footer-item img {
+    width: 34px; /* Adjust image size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add spacing between image and text */
+}
+
+.footer-item span  {
+    font-size: 16px; /* Adjust text size as needed */
+    color: blue;
+}
+
+.footer-item a{
+    text-decoration: none;
+}
+.footer-item a:hover span{
+    color: rgb(9, 2, 97);
+    font-size: 24px;
+}
+
+
